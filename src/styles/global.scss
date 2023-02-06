@@ -1,0 +1,49 @@
+@import './settings.scss';
+
+html * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font_text;
+}
+
+p{
+    color: $color_text;
+}
+
+h1, h3, h4 {
+    font-family: $font_title;
+    color: $color_title;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: $color_text;
+}
+
+a{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+div.carousel {
+    height: 80%;
+
+    div.carousel-indicators [data-bs-target]{
+        background-color: $color_text;
+    }
+}
+
+.carousel-control-prev, .carousel-control-next {
+    visibility:hidden;
+}

@@ -1,8 +1,21 @@
 import styles from './NavBar.module.scss';
+import { useState } from 'react';
+import clsx from 'clsx';
 
-const NavBar = () => {
+const NavBar = ({height}) => {
+    const [ fix, setFix ] = useState(false);
+
+    const setPosition = () => {
+        if(window.scrollY >= 50){
+            setFix(true)
+        } else {
+            setFix(false)
+        }
+    };
+
+    window.addEventListener("scroll", setPosition);
     return(
-        <div className={styles.nav}>
+        <div className={clsx(styles.nav, fix ? styles.fixed : styles.normal )}>
             <div className={styles.logo}>
                 <img src="/images/logo.png" alt="Niebieskie logo Besta Nutrado"></img>
             </div>

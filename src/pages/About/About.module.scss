@@ -1,0 +1,17 @@
+@import '../../styles/settings.scss';
+
+.wrapper {
+    margin-top: 5%;
+    height: 30vh;
+    line-height: 4vh;
+   h4{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+   }
+
+   .content{
+    margin-top: 5%;
+   }
+}

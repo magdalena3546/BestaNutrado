@@ -21,9 +21,9 @@ const NavBar = ({height}) => {
             </div>
             <div className={styles.menu}>
                 <ul className={styles.list}>
-                    <li><a href="#">O nas</a></li>
+                    <li><a href="/">Strona głowna</a></li>
+                    <li><a href="/about">O nas</a></li>
                     <li><a href="#">Produkty</a></li>
-                    <li><a href="#">Blog</a></li>
                     <li><a href="#">Kontakt</a></li>
                 </ul>
             </div>

@@ -1,0 +1,138 @@
+@import '../../styles/settings.scss';
+
+.wrapper{
+    margin: 5% 8%;
+    text-align: center;
+    position: relative;
+    height: 80vh;
+
+    h4{
+        margin: 5% 5% 1%;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 2px;
+        &::after {
+            display:block;
+            clear:both;
+            content : "";
+            position: relative;
+            left: 0;
+            bottom: 0;
+            max-width:250px;
+            height: 3px;
+            width: 20%;  
+            border-bottom: 3px solid  $color_one;
+            margin:0 auto;
+            padding: 1% 0;
+
+        }
+    }
+
+    h5 {
+        font-weight: normal;
+        margin-bottom: 3%;
+    }
+    .graph{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 58vh;
+        width: 58vh;
+        border-radius: 50%;
+        border: 5px solid #d1cece;
+
+        .text {
+            padding: 0 5%;
+            width: 30vh;
+            
+            h6 {
+                font-size: 22px;
+                text-transform: uppercase;
+                transition: .2s;
+              }
+             
+        } 
+
+        .boxIcon {
+            position: relative;
+            width: 10vh;
+            height: 10vh;
+            border-radius: 50%;
+            background-color: $color_one;
+            text-align: center;
+
+            .icon {
+                position: absolute;
+                color: #fff;
+                font-size: 50px;
+                transition: .2s;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) scale(1.1);
+            }
+
+            &:hover .icon{
+                transform: translate(-50%, -50%) scale(.9);
+            }
+
+        }
+
+     
+        .element1, .element2, .element3, .element4, .element5, .element6 {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            text-align: right;
+            margin: 0 5%;
+        } 
+
+        .element2, .element4, .element6 {
+            text-align: left;
+            flex-direction: row-reverse;
+        }
+
+        .element1{
+            top: 0;
+            left:-50%;
+        }
+
+        .element2 {
+            top: 0;
+            left: 75%;
+        }
+
+        .element3 {
+            top: 35%;
+            left: -65%;
+        }
+
+        .element4 {
+            top: 35%;
+            left: 85%;
+        }
+
+        .element5 {
+            top: 70%;
+            left: -55%;
+        }
+
+        .element6 {
+            top: 70%;
+            left: 70%;
+        }
+
+        .photoFood {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            img{
+                width: 90%;
+            }
+        }
+    }
+}
+
+ 

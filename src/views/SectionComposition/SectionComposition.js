@@ -1,13 +1,13 @@
-import { Container } from 'react-bootstrap';
 import styles from './SectionComposition.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAtom, faFlask, faPercent, faShieldVirus, faSlash, faUserDoctor, faWheatAwn } from '@fortawesome/free-solid-svg-icons';
+import SectionTitle from '../../common/SectionTitle/SectionTitle';
 
 
 const SectionComposition = () => {
     return(
         <div className={styles.wrapper}>
-            <h4 className={styles.title}>Nasze składniki</h4>
+            <SectionTitle name="Nasze składniki" />
             <h5 className={styles.subtitle}>Dokładnie wyselekcjonowane, z dbałością o zdrowie twojego najlepszego przyjaciela.</h5>
             <div className={styles.graph}>
                 <div className={styles.photoFood}><img alt='opakowanie karmy Besta Nutrado' src='/images/besta2.png'></img></div>

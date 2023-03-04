@@ -6,29 +6,7 @@
     position: relative;
     height: 80vh;
 
-    h4{
-        margin: 5% 5% 1%;
-        font-size: 50px;
-        font-weight: bold;
-        text-align: center;
-        letter-spacing: 2px;
-        &::after {
-            display:block;
-            clear:both;
-            content : "";
-            position: relative;
-            left: 0;
-            bottom: 0;
-            max-width:250px;
-            height: 3px;
-            width: 20%;  
-            border-bottom: 3px solid  $color_one;
-            margin:0 auto;
-            padding: 1% 0;
-
-        }
-    }
-
+ 
     h5 {
         font-weight: normal;
         margin-bottom: 3%;

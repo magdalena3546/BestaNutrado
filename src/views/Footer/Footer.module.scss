@@ -1,0 +1,64 @@
+@import '../../styles/settings.scss';
+
+.container {
+    margin-top: 8%;
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #F2F2F2;
+  
+
+    .icons {
+        display: flex;
+        width: 10vw;
+        
+        .iconMedia {
+            width: 40px;
+            height: 40px;
+            margin-left: 5%;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+            transition: .3s;
+            cursor: pointer;
+            &:hover{
+                background-color: $color_one;
+                color: #fff;
+            }
+        }
+
+        .icon {
+            margin-right: 10%;
+            font-size: 30px;
+            cursor: pointer;
+            // background-color: red;
+            transition: .3s;
+            &:hover {
+                color: $color_one;
+                animation: shake .5s;
+            }
+        }
+    }
+
+   
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg) translateX(0px);
+    }
+    25% {
+        transform: rotate(0deg) translateX(0px);
+    }
+    50% {
+        transform: rotate(10deg) translateX(10px);
+    }
+    75% {
+        transform: rotate(-10deg) translateX(-10px);
+    }
+    100% {
+        transform: rotate(0deg) translateX(0px);
+    }
+}

@@ -3,6 +3,8 @@ import styles from './About.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaw } from '@fortawesome/free-solid-svg-icons';
 import AboutBanner from './AboutBanner';
+import SectionTitle from '../../common/SectionTitle/SectionTitle';
+import Button from '../../common/Button/Button';
 
 const About = () => {
     return (
@@ -19,13 +21,12 @@ const About = () => {
                 </div>
 
                 <div className={styles.content}>
-                    <h4>Besta Nutrado</h4>
+                    {/* <h4>Besta Nutrado</h4> */}
+                    <SectionTitle name="Besta Nutrado"/>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti voluptatibus explicabo at esse tempora incidunt recusandae aut. Laborum cum quaerat aspernatur quidem, magnam nisi pariatur ipsum eos praesentium, numquam itaque.
                     Id in temporibus ab corporis voluptatibus excepturi pariatur nihil ipsa ad ut reprehenderit illum provident possimus, numquam impedit laboriosam quidem assumenda incidunt ex velit est? Eius veniam corporis rerum excepturi.
                     </p>
-                    <a href="/" className={styles.button}>Kup teraz
-                    <FontAwesomeIcon icon={faPaw} className={styles.icon}/>
-                    </a>
+                    <Button name="Kup teraz" />
                 </div>
             </div>
             <AboutBanner />

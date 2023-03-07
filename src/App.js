@@ -4,6 +4,7 @@ import Header from "./views/Header/Header";
 import NavBar from "./views/NavBar/NavBar";
 import { Routes, Route } from 'react-router-dom';
 import Footer from "./views/Footer/Footer";
+import Contact from "./pages/Contact/Contact";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
       {/* <About /> */}

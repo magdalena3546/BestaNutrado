@@ -1,6 +1,7 @@
 import styles from './NavBar.module.scss';
 import { useState } from 'react';
 import clsx from 'clsx';
+import { Link } from 'react-router-dom';
 
 const NavBar = ({height}) => {
     const [ fix, setFix ] = useState(false);
@@ -21,10 +22,10 @@ const NavBar = ({height}) => {
             </div>
             <div className={styles.menu}>
                 <ul className={styles.list}>
-                    <li><a href="/">Strona głowna</a></li>
-                    <li><a href="/about">O nas</a></li>
-                    <li><a href="#">Produkty</a></li>
-                    <li><a href="/contact">Kontakt</a></li>
+                    <li><Link to="/">Strona głowna</Link></li>
+                    <li><Link to="/about">O nas</Link></li>
+                    <li><Link to="#">Produkty</Link></li>
+                    <li><Link to="/contact">Kontakt</Link></li>
                 </ul>
             </div>
         </div>

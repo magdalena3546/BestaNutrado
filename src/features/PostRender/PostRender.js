@@ -6,7 +6,7 @@ import { getAllPosts } from "../../redux/postsRedux";
 const PostRender = () => {
     const posts = useSelector(getAllPosts);
     return(
-        <Container>
+        <Container className='my-5'>
             <Row xs={1} md={3}>
               {posts.map(post => <Col key={post.id} ><PostDescription {...post} id={post.id} /></Col>)}
             </Row>

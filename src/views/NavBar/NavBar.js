@@ -26,6 +26,7 @@ const NavBar = ({height}) => {
                     <li><Link to="/about">O nas</Link></li>
                     <li><Link to="#">Produkty</Link></li>
                     <li><Link to="/contact">Kontakt</Link></li>
+                    <li><Link to="/partnership">Współpraca</Link></li>
                 </ul>
             </div>
         </div>

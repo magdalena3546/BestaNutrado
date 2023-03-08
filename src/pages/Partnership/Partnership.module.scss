@@ -1,0 +1,49 @@
+@import '../../styles/settings.scss';
+.banner {
+    background-image: url("../../../public/images/partnership.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-position: center 60%;
+    background-size: cover;
+
+    &::after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    h3{
+        font-size: 70px;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        color: #fff;
+        font-weight: light;
+    }
+}
+
+.content {
+    display: flex;
+    margin: 5%;
+    .photoDog {
+        background-image: url("../../../public/images/dogPartnership.jpg");
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        width: 50vh;
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .text {
+        margin-left: 5%;
+        align-self: center;
+    }
+}

@@ -1,0 +1,21 @@
+@import '../../styles/settings.scss';
+
+.container {
+    height: 70vh;
+    overflow: hidden;
+
+    .content {
+        background-color: #F2F2F2;
+        display: flex;
+        align-items: center;
+        transition: .3s;
+
+        .photo img {
+            height: 50vh;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

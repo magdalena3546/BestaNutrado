@@ -1,13 +1,14 @@
 import styles from './Button.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaw } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Button = (props) => {
     return(
     // <a href ="#" className={styles.btn}>{props.name}</a>
-    <a href="/" className={styles.button}>{props.name}
+    <Link to={props.link} className={styles.button}>{props.name}
         <FontAwesomeIcon icon={faPaw} className={styles.icon}/>
-    </a>
+    </Link>
     )
 };
 

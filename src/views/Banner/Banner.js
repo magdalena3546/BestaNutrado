@@ -16,7 +16,7 @@ const Banner = () => {
                  <h2 className='animate__animated animate__bounce animate__delay-2s'>Besta Nutrado</h2>
                  <h3>Z pasji do zwierząt</h3>
                  <p>Healthy diet for your friend</p>
-                 <Button name="read more" />
+                 <Button link="/" name="read more" />
                  </Carousel.Caption>
              </Carousel.Item>
              <Carousel.Item className={styles.bannerItem}>
@@ -31,7 +31,7 @@ const Banner = () => {
                  <h2 className='animate__animated animate__bounce animate__delay-2s'>Besta Nutrado</h2>
                  <h3>Z troski do zwierząt</h3>
                  <p>Healthy diet for your friend</p>
-                 <Button name="read more" />
+                 <Button link="/" name="read more" />
                  </Carousel.Caption>
              </Carousel.Item>
          </Carousel> 

@@ -8,7 +8,7 @@ const PostDescription = props => {
       <p className={styles.date}>{props.publishedDate}</p>
       <h6>{props.title}</h6>
       <p>{props.shortDescription}</p>
-      <Button name="więcej"></Button>
+      <Button link={`/post/${props.id}`} name="więcej"></Button>
     </div>
   )
 };

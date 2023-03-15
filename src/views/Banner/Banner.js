@@ -8,7 +8,7 @@ const Banner = () => {
         <Carousel>
         <Carousel.Item className={styles.bannerItem}>
              <img
-                 className={clsx(styles.bannerImage, 'mx-2')}
+                 className={styles.bannerImage}
                  src="/images/dog6.png"
                  alt="pies - bernardyn"
                  />

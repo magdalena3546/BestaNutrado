@@ -48,3 +48,9 @@ div.carousel {
     visibility:hidden;
 }
 
+@media (min-width: 1024px) and (orientation: landscape) and (max-width: 1500px) {
+    a {
+        font-size: 11px;
+        padding-top: 0;
+    }
+}

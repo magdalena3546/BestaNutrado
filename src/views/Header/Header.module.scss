@@ -1,6 +1,17 @@
 .background {
     background-color: #F2F2F2;
     height: 90vh;    
-    // overflow: hidden;
 }
 
+// @media (min-width: 320px) and (orientation: portrait) {
+//     .background {
+//         height: 70vh;
+//     }
+// }
+
+
+@media (min-width: 390px) and (orientation: portrait) {
+    .background {
+        height: 70vh;
+    }
+}

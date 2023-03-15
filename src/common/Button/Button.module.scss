@@ -41,9 +41,14 @@
     }
     .icon {
         margin-left: 6px;
-        font-size: 1em;
+        font-size: .8em;
         transition: .3s;
         color: #000;
     }
 }
 
+@media (min-width: 320px) and (orientation: portrait) {
+    .button{ 
+        padding: 2% 8%;
+    }
+}

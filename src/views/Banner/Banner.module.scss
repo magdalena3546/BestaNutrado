@@ -7,10 +7,9 @@
 
     .bannerImage {
         display: block;
-        width: 55%;
+        width: 30%;
         height: auto;
-        margin: 5% -10% 0;
-        
+        margin: 5% 0 0 7%;
     }
 
     .bgcImage {
@@ -22,15 +21,6 @@
         background-position: center;
         background-size: cover;
 
-        &::after {
-            content: '';
-            position: absolute;
-            height: 100%;
-            width: 100%;
-            top: 0;
-            left: 0;
-            // background-color: rgba(0, 0, 0, 0.5);
-        }
     }
 
     .bannerText {
@@ -60,3 +50,64 @@
 
 }
 
+@media (min-width: 320px) and (orientation: portrait)  {
+    .bannerItem {
+        .bannerImage {
+            width: 65%;
+            margin: 40% 0 0 0;
+        }
+        .bannerText {
+            h3{
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+    
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (min-width: 390px) and (orientation: portrait) {
+    .bannerItem {
+        height: 70vh;
+    }
+}
+
+@media (min-width: 425px) and (orientation: portrait) {
+    .bannerItem {
+        .bannerImage {
+            width: 50%;
+            margin-top: 15%;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .bannerItem {
+        .bannerText {
+            h3{
+                font-size: 35px;
+            }
+            h2 {
+                font-size: 26px;
+            }
+    
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (orientation: landscape) and (max-width: 1023px) {
+    .bannerItem {
+        .bannerImage {
+            width: 40%;
+            margin-top: 10%;
+        }
+    }
+}

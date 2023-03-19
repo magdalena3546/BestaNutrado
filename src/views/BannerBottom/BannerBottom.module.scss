@@ -88,7 +88,7 @@
             }
 
         }
-}
+    }
     .textBox {
         position: absolute;
         top: 80%;
@@ -116,5 +116,53 @@
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 389px){
+    .container {
+        .circle a .icon {
+            font-size: 4em;   
+           }
+    }
+}
+@media (min-width: 320px) and (max-width: 700px){
+    .container {
+        .textBox {
+            h3 {
+                display: none;
+            }
+        }
+        
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1400px){
+    .container {
+        .textBox {
+            h3 {
+                font-size: 30px;
+            }
+        }
+
+    }
+}
+
+@media (min-width: 768px) and (orientation: portrait){
+    .container {
+        .circle a {
+            width: 11vh;
+            height: 11vh;
+           }
+    }
+}
+
+@media (min-width: 1920px){
+    .container {
+        .circle a {
+            width: 12vh;
+            height: 12vh;
+           }
     }
 }

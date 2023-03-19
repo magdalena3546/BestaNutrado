@@ -19,3 +19,23 @@
         }
     }
 }
+
+@media (min-width: 320px) and (orientation: portrait) {
+    .container {
+        height: 80vh;
+        h5 {
+            font-size: 16px;
+        }
+        p {
+            font-size: 14px;
+        }
+        .content {
+            .dog {
+                display: none;
+            }
+            // .photo img {
+            //     height: 20vh;
+            // }
+        }
+    }
+}

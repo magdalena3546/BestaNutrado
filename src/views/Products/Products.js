@@ -6,10 +6,11 @@ const Products = () => {
     return (
         <div className={styles.container}>
             <SectionTitle name="Nasze produkty"/>
+            
             <div className={styles.content}>
-                <div className={styles.dog}><img src='./images/dogProduct.png' alt="biały pies"></img></div>
-                <div>
-                    <h5>Poznaj nasze produkty!</h5>
+            <div className={styles.dog}><img src='./images/dogProduct.png' alt="biały pies"></img></div>
+                <div  className={styles.text}>
+                    <h5>Poznaj nasze produkty</h5>
                     <p>Zapoznaj się z gamą naszych produktów. Wybierz idealną karmę dla twojego pupila!</p>
                     <Button link="/" name="Więcej" />
                 </div>

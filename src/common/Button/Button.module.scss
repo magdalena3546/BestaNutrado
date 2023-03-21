@@ -25,7 +25,7 @@
     display: inline-block;
     font-family: $font_text;
     margin-top: 2%;
-    padding: 1.5% 5%;
+    padding: 1.5% 3%;
     border-radius: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -47,8 +47,9 @@
     }
 }
 
-@media (min-width: 320px) and (orientation: portrait) {
+@media (min-width: 320px) and (max-width: 768px) {
     .button{ 
-        padding: 2% 8%;
+        font-size: .9em;
+        padding: 2% 7%;
     }
 }

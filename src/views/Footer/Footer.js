@@ -9,8 +9,8 @@ const Footer = () => {
                 <div className={styles.iconMedia}><FontAwesomeIcon icon= {faFacebookF} /></div>
                 <div className={styles.iconMedia}><FontAwesomeIcon icon= {faInstagram} /></div>
             </div>
-            <div className={styles.box}>
-                <p className={styles.text}>Copyright &copy; Besta Nutrado 2023. All rights reserved.</p> 
+            <div>
+                <p>Copyright &copy; Besta Nutrado 2023. All rights reserved.</p> 
             </div> 
            <div className={styles.icons}>
                 <div className={styles.icon}><FontAwesomeIcon icon= {faMobile}  /></div>

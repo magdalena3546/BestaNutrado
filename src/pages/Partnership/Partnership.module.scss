@@ -33,6 +33,7 @@
 .content {
     display: flex;
     margin: 5%;
+    text-align: center;
     .photoDog {
         background-image: url("../../../public/images/dogPartnership.jpg");
         background-repeat: no-repeat;
@@ -46,4 +47,29 @@
         margin-left: 5%;
         align-self: center;
     }
+}
+
+@media (min-width: 320px) and (max-width: 915px) {
+    .banner {
+        h3 {
+            font-size: 40px;
+        }
+    }
+    .content {
+        align-items: center;
+        flex-direction: column;
+        .photoDog {
+            margin: 5% 0;
+        }
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 739px) and (orientation: portrait){
+     .content {
+        .photoDog {
+            width: 40vh;
+            height: 40vh;
+        }
+     }
 }

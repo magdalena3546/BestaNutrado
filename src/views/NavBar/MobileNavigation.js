@@ -6,7 +6,7 @@ import {useState} from 'react';
 
 const MobileNavigation = () => {
     const [open, setOpen] =useState(false);
-    const hamburgerIcon = <HiOutlineMenu className={styles.hamburger} size='40px' color='black' onClick={()=>setOpen(!open)}/>
+    const hamburgerIcon = <HiOutlineMenu className={styles.hamburger} color='black' onClick={()=>setOpen(!open)}/>
     const closeIcon = <MdClose className={styles.hamburger} size='40px' color='black' onClick={()=>setOpen(!open)}/>
     const closeMobileMenu = () => setOpen(false);
     return (

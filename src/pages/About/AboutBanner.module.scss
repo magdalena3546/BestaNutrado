@@ -47,4 +47,99 @@
     }
 }
 
+
+@media(min-width: 320px) and (max-width: 915px) {
+    .wrapper {
+        .box {
+            .icon {
+                font-size: 3em;
+            }
+            h4 {
+                font-size: 22px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+ @media (min-width: 320px) and (max-width: 600px) and (orientation: portrait){
+    .wrapper {
+        align-items: center;
+        flex-direction: column;
+        .box {
+            width: 80vw;
+            height: 50vw;
+            margin-left: 0;
+            margin-top: 5%;
+            h4 {
+                margin: 5% 0;
+            }
+        }
+        .photo {
+            height: 60%;
+        }
+    }
+ }
+
+ @media (min-width: 359px) and (max-width: 539px) and (orientation: portrait){
+    .wrapper {
+        .box {
+            height: 60vw;
+            margin-top: 10%;
+        }
+        .photo {
+            height: 47%;
+        }
+    }
+ }
  
+ @media (min-width: 540px) and (max-width: 767px) and (orientation: portrait){
+    .wrapper {
+        .box {
+            width: 60vw;
+            height: 35vw;
+        }
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait){
+    .wrapper {
+        height: 40vh;
+        .box {
+            height: 35vw;
+        }
+        .photo {
+            height: 80%;
+        }
+    }
+ }
+
+ @media (min-width: 500px) and (max-width: 739px) and (orientation: landscape){
+    .wrapper {
+        .box {
+            width: 60vw;
+            height: 35vw;
+        }
+    }
+ }
+
+ @media (min-width: 740px) and (max-width: 915px) and (orientation: landscape){
+    .wrapper {
+        .box {
+            width: 60vw;
+            height: 25vw;
+        }
+    }
+ }
+
+ 
+ @media (min-width: 1024px) and (max-width: 1500px){
+    .wrapper {
+        .box {
+            height: 30vw;
+        }
+    }
+ }

@@ -10,6 +10,7 @@
 
     .icons {
         display: flex;
+        padding-right: 3%;
         .iconMedia {
             width: 40px;
             height: 40px;
@@ -27,7 +28,7 @@
         }
 
         .icon {
-            margin-right: 10%;
+            margin-right: 15%;
             font-size: 30px;
             cursor: pointer;
             transition: .3s;
@@ -36,7 +37,6 @@
             }
             &:hover {
                 color: $color_one;
-                animation: shake .5s;
             }
         }
     }
@@ -96,3 +96,15 @@
         }
     }
 }
+
+ @media (min-width: 1025px) {
+    .container {
+        .icons {
+            .icon {
+                &:hover {
+                    animation: shake .5s;
+                }
+            }
+        }
+    }
+ }

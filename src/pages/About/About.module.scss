@@ -2,10 +2,10 @@
 
 .wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     margin-top: 10%;
-    line-height: 4vh;
+    line-height: 1.8;
     background-image: url("../../../public/images/rysPies.png");
     background-repeat: no-repeat;
     background-position: 100% -10%;
@@ -41,7 +41,7 @@
         position: absolute;
         top: 10%;
         left: 70%;
-        width: 70%;
+        width: 50%;
         height: auto;
     }
    }
@@ -77,3 +77,124 @@
         font-weight: light;
     }
 }
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .wrapper {
+        background-image: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 739px) {
+    .banner {
+        h3 {
+            font-size: 40px;
+        }
+    }
+
+    .wrapper {
+        margin-bottom: 10%;
+        background-image: none;
+        flex-direction: column;
+        .aside {
+            .photo {
+               width: 40vh;
+               height: 40vh; 
+            }
+    
+            .photoFood {
+               top: 10%;
+               left: 50%;
+               width: 35%;
+            }
+        }
+
+        .content {
+            margin-top: 10%;
+            padding: 0;
+
+            p {
+                font-size: 14px;
+                padding: 0;
+            }
+        }
+    }
+    
+}
+
+@media (min-width: 360px) and (max-width: 414px) {
+    .wrapper {
+        .aside {
+            .photo {
+                width: 35vh;
+                height: 35vh; 
+             }
+            .photoFood {
+                top: 5%;
+                width: 40%;
+             }
+        }
+    }
+}
+
+@media (min-width: 415px) and (max-width: 738px) and (orientation: portrait) {
+    .wrapper {
+        .aside {
+            .photoFood {
+                top: 0;
+                width: 30%;
+             }
+        }
+    }
+}
+
+@media (min-width: 500px) and (max-width: 738px) and (orientation: landscape) {
+
+    .wrapper {
+        .aside {
+            width: 75%;
+            .photo {
+               width: 60vh;
+               height: 60vh; 
+            }
+    
+            .photoFood {
+               top: 0;
+               left: 45%;
+               width: 30%;
+            }
+        }
+
+        .content {
+            margin-top: 6%;
+        }
+    }
+}
+
+ @media (min-width: 739px) and (max-width: 1024px) and (orientation: landscape) {
+    .wrapper {
+        .aside {
+            .photo {
+               width: 60vh;
+               height: 60vh; 
+            }
+            .photoFood {
+               width: 60%;
+               top: 0;
+            }
+        }
+    }
+ }
+
+ @media (min-width: 739px) and (max-width: 1024px) and (orientation: portrait) {
+    .wrapper {
+        .aside {
+            .photo {
+               width: 30vh;
+               height: 30vh; 
+            }
+            .photoFood {
+               width: 50%;
+            }
+        }
+    }
+ }

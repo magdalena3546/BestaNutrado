@@ -65,7 +65,7 @@
     transition: .5s ease-in-out;
     border-bottom: 1px solid #F2F2F2;
     max-height: 8vh;
-}
+    }
 
 
 @media (max-width: 990px) {
@@ -76,6 +76,7 @@
         .mobileNavigation {
             display: block;
             .hamburger {
+                font-size: 40px;
                 position: absolute;
                 right: 5%;
                 top: 2%;
@@ -88,9 +89,10 @@
             position: absolute;
             top: 12vh;
             right: 0;
-            width: 50%;
+            width: 100%;
             border-top: 2px solid $color_one; 
             background-color: #fff;
+            transition: .3s;
             
             li {
                 padding-left: 15%;
@@ -107,6 +109,31 @@
     }
     .fixed .menu .mobileNavigation .list{
         top: 8vh;
-        width: 100%;
+        transition: .3s;
+    }
+}
+
+
+@media (max-width: 990px) and (orientation: landscape){
+    .fixed{
+        max-height: 12vh;
+        .menu .mobileNavigation .list{
+            top: 12vh;
+            width: 100%;
+        }
+    }
+    .nav .menu {
+        .list {
+            width: 50%;
+        }
+    }
+}
+@media (min-width: 412px) and (max-width: 990px) and (orientation: portrait){
+    .nav .menu {
+        .mobileNavigation {
+            .hamburger {
+                font-size: 60px;
+            }
+        }
     }
 }

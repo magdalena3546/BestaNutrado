@@ -37,24 +37,17 @@
 .photo {
     text-align: center;
     margin: 5% 10% 0;
-    background-image: url("../../../public/images/paws2.png");
-    // border-radius: 30px;
-    
-    // box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
-    
+    background-image: url("../../../public/images/paws2.png");  
     background-repeat: no-repeat;
     height: 70vh;
     background-position: bottom center;
     background-size: cover;
-    h4 {
-        font-size: 32px;
-        padding-top: 10%;
-    }
+        h4 {
+            font-size: 32px;
+            padding-top: 10%;
+        }
     }
 }
-
-
-    
 .contact {
     margin: 5% 0 0;
     display: flex;
@@ -68,7 +61,6 @@
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
-        
             transition: .3s;
         }
         &:nth-of-type(1) .photoContact {
@@ -80,16 +72,9 @@
         &:nth-of-type(3) .photoContact {
             background-image: url("../../../public/images/happy3.png");
         }
-        &:hover{
-            transform: scale(.9);
-        }
-        // &:hover .photoContact {
-        //     // opacity: 1;
-            
-        // }
     }
     .contactBox {
-        background-color: #F2F2F2; //???
+        background-color: #F2F2F2; 
         height: 30vh;
         width: 40vh;
         display: flex;
@@ -107,8 +92,102 @@
         }
     }
 
-  
 }
 
+@media (min-width: 320px) and (max-width: 739px) {
+    .banner {
+        h3 {
+            font-size: 40px;
+        }
+    }
+    .boxPaws {
+        .photo{
+            h4{
+                font-size: 24px;
+            }
+     }
+    }
 
+}
 
+@media (min-width: 320px) and (max-width: 1023px) and (orientation: portrait){
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        .contactWrapper {
+            margin-bottom: 5%;
+        }
+        .contactBox {
+            .icon{
+            font-size: 3em;
+            margin-right: 7%;
+            }
+        }
+    }
+    .boxPaws {
+        .photo{
+            height: 45vh;
+            background-size: contain;
+        }
+    }
+}
+
+@media (min-width: 500px) and (max-width: 915px) and (orientation: landscape) {
+    .contact {
+        h4 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .contactBox {
+            height: 50vh;
+            width: 50vh;
+            .icon {
+                font-size: 2em;
+            }
+        }
+    }
+}
+
+@media (min-width: 700px) and (max-width: 739px) and (orientation: landscape) {
+    .contact {
+        .contactBox {
+            width: 35vh;
+            height: 40vh;
+        }
+    }
+    .boxPaws {
+        .photo{
+            height: 55vh;
+        }
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) and (orientation: landscape) {
+    .boxPaws {
+        .photo{
+            height: 90vh;
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) and (orientation: landscape) {
+    .boxPaws {
+        .photo{
+            height: 55vh;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact {
+        .contactWrapper {
+            &:hover{
+                transform: scale(.9);
+            }
+        }
+    }
+}

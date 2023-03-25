@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/BestaNutrado/static/css/main.674a8ac6.css",
+    "main.js": "/BestaNutrado/static/js/main.176fdb7e.js",
+    "static/media/dogsCats.png": "/BestaNutrado/static/media/dogsCats.eae25fa8faeb3add6db6.png",
+    "static/media/dogs.jpg": "/BestaNutrado/static/media/dogs.6bbbc0be7480323b6502.jpg",
+    "static/media/conttact.jpg": "/BestaNutrado/static/media/conttact.3f232a3fc1f5a261de54.jpg",
+    "static/media/dogsProductsBanner.jpg": "/BestaNutrado/static/media/dogsProductsBanner.606aa3a514543dbb334f.jpg",
+    "static/media/partnership.jpg": "/BestaNutrado/static/media/partnership.1ca007fed82e39bd5c5e.jpg",
+    "static/media/familyDog.jpg": "/BestaNutrado/static/media/familyDog.b1b92365eb1a3340b8e6.jpg",
+    "static/media/banner1.jpg": "/BestaNutrado/static/media/banner1.feb70d2864059a164ce1.jpg",
+    "static/media/rysPies.png": "/BestaNutrado/static/media/rysPies.21d9bfbca54edeb940b2.png",
+    "static/media/familyCat.jpg": "/BestaNutrado/static/media/familyCat.f12af0e2a93669a5f4fd.jpg",
+    "static/media/paws2.png": "/BestaNutrado/static/media/paws2.ebe4cbbcdd465405898c.png",
+    "static/media/happy2.png": "/BestaNutrado/static/media/happy2.623aaac2a4b409d68052.png",
+    "static/media/happy.png": "/BestaNutrado/static/media/happy.d9fb2da95678235cac8b.png",
+    "static/media/golden.jpg": "/BestaNutrado/static/media/golden.db69a37133e02f94a836.jpg",
+    "static/media/happy3.png": "/BestaNutrado/static/media/happy3.25d860690c5af4714f77.png",
+    "static/media/dogPartnership.jpg": "/BestaNutrado/static/media/dogPartnership.e87c8b5671eb87b6ab0a.jpg",
+    "index.html": "/BestaNutrado/index.html",
+    "main.674a8ac6.css.map": "/BestaNutrado/static/css/main.674a8ac6.css.map",
+    "main.176fdb7e.js.map": "/BestaNutrado/static/js/main.176fdb7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.674a8ac6.css",
+    "static/js/main.176fdb7e.js"
+  ]
+}

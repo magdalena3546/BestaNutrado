@@ -12,7 +12,7 @@ const Products = () => {
                 <div  className={styles.text}>
                     <h5>Poznaj nasze produkty</h5>
                     <p>Zapoznaj się z gamą naszych produktów. Wybierz idealną karmę dla twojego pupila!</p>
-                    <Button link="/" name="Więcej" />
+                    <Button link="/products" name="Więcej" />
                 </div>
                 <div className={styles.photo}><img src='./images/besta1.png' alt="opakowanie karmy Besta Nutrado"></img></div>
             </div>

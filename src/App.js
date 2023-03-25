@@ -6,6 +6,7 @@ import Footer from "./views/Footer/Footer";
 import Contact from "./pages/Contact/Contact";
 import Partnership from "./pages/Partnership/Partnership";
 import Post from "./pages/Post/Post";
+import ProductsPage from "./pages/ProductsPage/ProductsPage";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/products" element={<ProductsPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/partnership" element={<Partnership />} />
         <Route path="/post/:id" element={<Post />}/>

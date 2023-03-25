@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import styles from './BannerBottom.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaw } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 const BannerBottom = () => {
 
@@ -23,11 +24,9 @@ const BannerBottom = () => {
         <div className={styles.box}></div>
         <div className={styles.circle}>
                 <p className={styles.textCircle} id='text'> Besta Nutrado - Najlepsza karma - Naturalne składniki - </p>
-                <a href="#">
-                    {/* <div className={styles.triangle}></div> */}
-                    {/* <FontAwesomeIcon icon="fa-solid fa-paw" /> */}
+                <Link to="/products">
                     <FontAwesomeIcon icon={faPaw} className={styles.icon}/>
-                </a>
+                </Link>
         </div>
         <div className={styles.textBox}>
             <h3>Znajdź najlepszą karmę dla swojego przyjaciela!</h3>

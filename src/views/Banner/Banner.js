@@ -15,8 +15,8 @@ const Banner = () => {
                  <Carousel.Caption className = {clsx(styles.bannerText, 'animate__animated animate__slideInUp')}>
                  <h2 className='animate__animated animate__bounce animate__delay-2s'>Besta Nutrado</h2>
                  <h3>Z pasji do zwierząt</h3>
-                 <p>Healthy diet for your friend</p>
-                 <Button link="/" name="read more" />
+                 <p>Zdrowa dieta dla twojego pupila</p>
+                 <Button link="/about" name="więcej" />
                  </Carousel.Caption>
              </Carousel.Item>
              <Carousel.Item className={styles.bannerItem}>
@@ -30,8 +30,8 @@ const Banner = () => {
                  <Carousel.Caption  className = {clsx(styles.bannerText, 'animate__animated animate__slideInUp')}>
                  <h2 className='animate__animated animate__bounce animate__delay-2s'>Besta Nutrado</h2>
                  <h3>Z troski do zwierząt</h3>
-                 <p>Healthy diet for your friend</p>
-                 <Button link="/" name="read more" />
+                 <p>Zdrowa dieta dla twojego pupila</p>
+                 <Button link="/about" name="więcej" />
                  </Carousel.Caption>
              </Carousel.Item>
          </Carousel> 

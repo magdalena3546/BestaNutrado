@@ -25,3 +25,9 @@ Here is demo: https://kaleidoscopic-meringue-1047d9.netlify.app/
 - Clone this repo on your desktop.
 - Run yarn install to install all the dependencies.
 - Run yarn start to start the application. 
+
+---
+
+# License
+
+MIT

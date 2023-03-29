@@ -37,13 +37,13 @@
     }
 }
 
-@media ((min-width: 414px) and (max-width: 800px) and (orientation: landscape)) or ((min-width: 500px) and (max-width: 700px) and (orientation: portrait)) {
-    .box {
-        width: 60%;
-        margin-left: auto; 
-        margin-right: auto;
-    }
-}
+// @media ((min-width: 414px) and (max-width: 800px) and (orientation: landscape)) or ((min-width: 500px) and (max-width: 700px) and (orientation: portrait)) {
+//     .box {
+//         width: 60%;
+//         margin-left: auto; 
+//         margin-right: auto;
+//     }
+// }
 
 @media (min-width: 1025px) {
     .box {

@@ -5,7 +5,7 @@ Simple landing page for pet food created with React.
 ---
 
 #  Demo
-Here is demo: https://kaleidoscopic-meringue-1047d9.netlify.app/
+Here is demo: https://aesthetic-meringue-707852.netlify.app/
 
 ---
 

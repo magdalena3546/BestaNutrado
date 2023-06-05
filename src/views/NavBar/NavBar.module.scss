@@ -64,7 +64,7 @@
     background-color: #fff;
     transition: .5s ease-in-out;
     border-bottom: 1px solid #F2F2F2;
-    max-height: 8vh;
+    max-height: 9vh;
     }
 
 
@@ -107,9 +107,12 @@
 
        
     }
-    .fixed .menu .mobileNavigation .list{
+    .fixed{
+        max-height: 8vh;
+        .menu .mobileNavigation .list{
         top: 8vh;
         transition: .3s;
+    }
     }
 }
 

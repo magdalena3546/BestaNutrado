@@ -1,12 +1,13 @@
 import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import NavBar from "./views/NavBar/NavBar";
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 import Footer from "./views/Footer/Footer";
 import Contact from "./pages/Contact/Contact";
 import Partnership from "./pages/Partnership/Partnership";
 import Post from "./pages/Post/Post";
 import ProductsPage from "./pages/ProductsPage/ProductsPage";
+import BestaSummary from "./pages/BestaSummary/BestaSummary";
 
 const App = () => {
   return (
@@ -18,10 +19,10 @@ const App = () => {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/partnership" element={<Partnership />} />
-        <Route path="/post/:id" element={<Post />}/>
+        <Route path="/post/:id" element={<Post />} />
+        <Route path="/bestaArticle" element={<BestaSummary />} />
       </Routes>
       <Footer />
-      {/* <About /> */}
     </>
   );
 };

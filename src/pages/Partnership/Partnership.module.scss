@@ -50,11 +50,6 @@
 }
 
 @media (min-width: 320px) and (max-width: 915px) {
-    .banner {
-        h3 {
-            font-size: 40px;
-        }
-    }
     .content {
         align-items: center;
         flex-direction: column;
@@ -72,4 +67,20 @@
             height: 40vh;
         }
      }
+}
+
+@media (min-width: 320px) and (max-width: 739px) {
+    .banner {
+        h3 {
+            font-size: 40px;
+        }
+    }
+}
+
+@media (min-width: 739px) and (max-width: 1024px) and (orientation: landscape) {
+    .banner {
+        h3 {
+            font-size: 50px;
+        }
+    }
 }

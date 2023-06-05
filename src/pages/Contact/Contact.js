@@ -16,7 +16,7 @@ const Contact = () => {
                         <div className={styles.icon}><FontAwesomeIcon icon={faEnvelope}/></div>
                         <div className={styles.text}>
                             <h4>Napisz do nas</h4>
-                            <p>email@gmail.com</p>
+                            <p>blekitnaplaneta1@gmail.com</p>
                         </div>
                     </div>
                     </div>
@@ -26,7 +26,7 @@ const Contact = () => {
                         <div className={styles.icon}><FontAwesomeIcon icon={faPhone}/></div>
                             <div className={styles.text}>
                                 <h4>Zadzwoń do nas</h4>
-                                <p>555444333</p>
+                                <p>12 658 50 773</p>
                             </div>
                     </div>
                     </div>
@@ -36,7 +36,7 @@ const Contact = () => {
                         <div className={styles.icon}><FontAwesomeIcon icon={faLocationDot}/></div>
                             <div className={styles.text}>
                                 <h4>Odwiedź nas</h4>
-                                <p>ul.Lorem ipsum Lorem ipsum</p>
+                                <p>ul.Myślenicka 133, 30-698 Kraków</p>
                             </div>
                     </div>
                     </div>

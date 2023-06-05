@@ -21,7 +21,7 @@ if (!postData) return <Navigate to="/" />
                     <p>{postData.publishedDate}</p>
                 </div>
                 <div className={styles.text}>
-                    <p>{postData.content}</p>
+                {postData.content.map(elm => <p>{elm}</p>)}
                 </div>
             </Container>
         </>

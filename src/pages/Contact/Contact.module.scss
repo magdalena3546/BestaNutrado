@@ -166,7 +166,13 @@
     }
 }
 
+
 @media (min-width: 740px) and (max-width: 1023px) and (orientation: landscape) {
+    .banner {
+        h3 {
+            font-size: 50px;
+        }
+    }
     .boxPaws {
         .photo{
             height: 90vh;

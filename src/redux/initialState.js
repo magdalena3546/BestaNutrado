@@ -4,10 +4,10 @@ const initialStore = {
       id: "1",
       title: "Zabawy i Gry z Psem",
       shortDescription:
-        "Więź między człowiekiem a psem jest niezwykła i pełna miłości. Właściciele psów często szukają sposobów na jej wzmocnienie i spędzanie wspólnego czasu ze swoimi czworonożnymi przyjaciółmi. Jednym z najbardziej satysfakcjonujących i radosnych sposobów na budowanie relacji z psem jest poprzez zabawy i gry.",
+        "Więź między człowiekiem a psem jest niezwykła i pełna miłości. Właściciele psów często szukają sposobów na jej wzmocnienie i spędzanie wspólnego czasu ze swoimi czworonożnymi przyjaciółmi. Jednym z najbardziej satysfakcjonujących i radosnych sposobów na budowanie relacji z psem są zabawy i gry.",
       content: [
-        "Więź między człowiekiem a psem jest niezwykła i pełna miłości. Właściciele psów często szukają sposobów na jej wzmocnienie i spędzanie wspólnego czasu ze swoimi czworonożnymi przyjaciółmi. Jednym z najbardziej satysfakcjonujących i radosnych sposobów na budowanie relacji z psem jest poprzez zabawy i gry. Zabawy i gry zapewniają rozrywkę zarówno dla psa, jak i dla właściciela, ale również mają wiele korzyści dla zdrowia i dobrostanu obu stron. Regularna aktywność fizyczna i umysłowa pomaga w utrzymaniu psa w dobrej kondycji, zapobieganiu nadwadze i poprawie ogólnej kondycji fizycznej. Interakcja w trakcie zabaw pozwala na budowanie więzi emocjonalnej i wzmacnianie zaufania między właścicielem a psem.",
-        "W artykule będziemy zgłębiać różnorodne zabawy i gry, które pomogą Ci wzmocnić więź z Twoim psem. Opiszemy zarówno zabawy na świeżym powietrzu, takie jak aportowanie, frisbee czy bieganie, jak i gry umysłowe.",
+        "Więź między człowiekiem a psem jest niezwykła i pełna miłości. Właściciele psów często szukają sposobów na jej wzmocnienie i spędzanie wspólnego czasu ze swoimi czworonożnymi przyjaciółmi. Jednym z najbardziej satysfakcjonujących i radosnych sposobów na budowanie relacji z psem są zabawy i gry. Zapewniają one rozrywkę zarówno dla psa, jak i dla właściciela, ale również mają wiele korzyści dla zdrowia i dobrostanu obu stron. Regularna aktywność fizyczna i umysłowa pomaga w utrzymaniu psa w dobrej kondycji, zapobieganiu nadwadze i poprawie ogólnej kondycji fizycznej. Interakcja w trakcie zabaw pozwala na budowanie więzi emocjonalnej i wzmacnianie zaufania między właścicielem a psem.",
+        "W artykule będziemy zgłębiać różnorodne zabawy i gry, które pomogą Ci wzmocnić więź z Twoim psem. Opiszemy zarówno zabawy na świeżym powietrzu, takie jak aportowanie, frisbee, bieganie, jak i gry umysłowe.",
         "Niezależnie od wieku, rasy czy rozmiaru Twojego pupila, istnieje mnóstwo zabaw i gier, które można dostosować do jego indywidualnych potrzeb. Pamiętaj, że kluczowym elementem jest zrozumienie i dostosowanie się do preferencji i umiejętności Twojego psiaka.",
         "Przygotuj się na ekscytującą podróż po świecie zabaw i gier, które nie tylko przyniosą wiele radości, ale również wzmocnią więź i umocnią relację między Tobą a Twoim psem.",
         "Aportowanie to jedna z najpopularniejszych i najsłynniejszych zabaw z psem. Wymaga jedynie piłki lub innej zabawki, którą można rzucać, a następnie oczekiwać, aż pies ją przyniesie. Ta prosta gra ma wiele zalet - nie tylko dostarcza psu aktywności fizycznej, ale także stymuluje instynkt łowiecki i pozwala na trening posłuszeństwa, jak np. komenda aport. Aportowanie jest również doskonałym sposobem na spędzenie czasu na świeżym powietrzu.",
@@ -49,7 +49,7 @@ const initialStore = {
     },
     {
       id: "3",
-      title: "Kocie Zabawy - Wzmocnij Więź z Twoim Kotem",
+      title: "Kocie Zabawy",
       shortDescription:
         "Wspólna zabawa z kotem nie tylko dostarcza mu radości i rozrywki, ale także stanowi doskonałą okazję do budowania silnej więzi między Tobą a Twoim pupilem. Zabawy nie tylko utrzymują kota w dobrej kondycji fizycznej i umysłowej, ale także pozwalają mu wyrażać naturalne instynkty.",
       content: [

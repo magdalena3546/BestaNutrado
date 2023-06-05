@@ -4,9 +4,7 @@
     width: 100%;
     height: 70vh;
     background-color: rgba(249, 248, 113, .4);
-    // background-color: rgba(255, 142, 121, .3);
     justify-content: space-between;
-    
 
     .photo{
         background-image: url("../../../public/images/dogsCats.png");
@@ -32,7 +30,6 @@
             top: 10%;
             font-size: 4em;
             left: 80%;
-            // color: $color_three;
             transform: rotate(20deg);
         }
 

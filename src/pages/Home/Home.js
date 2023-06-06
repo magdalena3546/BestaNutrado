@@ -4,16 +4,17 @@ import SectionComposition from "../../views/SectionComposition/SectionCompositio
 import Blog from "../../views/Blog/Blog";
 import Products from "../../views/Products/Products";
 
-const Home = () => {
-    return(
+const Home = ({ setColor }) => {
+  setColor("#1D1D1D");
+  return (
     <>
-        <Header />
-        <SectionComposition />
-        <BannerBottom />
-        <Products />
-        <Blog />
+      <Header />
+      <SectionComposition />
+      <BannerBottom />
+      <Products />
+      <Blog />
     </>
-    )
+  );
 };
 
 export default Home;

@@ -1,12 +1,12 @@
-import NavLinks from "./NavLinks"
-import styles from './NavBar.module.scss';
+import NavLinks from "./NavLinks";
+import styles from "./NavBar.module.scss";
 
-const Navigation  = () => {
-    return(
-        <nav className={styles.navigation}>
-            <NavLinks />
-        </nav>
-    )
+const Navigation = ({ color }) => {
+  return (
+    <nav className={styles.navigation}>
+      <NavLinks color={color} />
+    </nav>
+  );
 };
 
 export default Navigation;

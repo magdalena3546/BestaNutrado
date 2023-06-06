@@ -3,7 +3,8 @@ import AboutBanner from "./AboutBanner";
 import SectionTitle from "../../common/SectionTitle/SectionTitle";
 import Button from "../../common/Button/Button";
 
-const About = () => {
+const About = ({ setColor }) => {
+  setColor("#fff");
   return (
     <>
       <div className={styles.banner}>

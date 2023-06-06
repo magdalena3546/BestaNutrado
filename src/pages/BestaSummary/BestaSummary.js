@@ -1,6 +1,7 @@
 import styles from "./BestaSummary.module.scss";
 
-const BestaSummary = () => {
+const BestaSummary = ({setColor}) => {
+  setColor("#fff");
   return (
     <>
       <div className={styles.bannerBesta}>

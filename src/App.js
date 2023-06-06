@@ -8,19 +8,30 @@ import Partnership from "./pages/Partnership/Partnership";
 import Post from "./pages/Post/Post";
 import ProductsPage from "./pages/ProductsPage/ProductsPage";
 import BestaSummary from "./pages/BestaSummary/BestaSummary";
+import { useState } from "react";
 
 const App = () => {
+  const [color, setColor] = useState("#fff");
   return (
     <>
-      <NavBar />
+      <NavBar color={color} />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/products" element={<ProductsPage />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/partnership" element={<Partnership />} />
-        <Route path="/post/:id" element={<Post />} />
-        <Route path="/bestaArticle" element={<BestaSummary />} />
+        <Route path="/" element={<Home setColor={setColor} />} />
+        <Route path="/about" element={<About setColor={setColor} />} />
+        <Route
+          path="/products"
+          element={<ProductsPage setColor={setColor} />}
+        />
+        <Route path="/contact" element={<Contact setColor={setColor} />} />
+        <Route
+          path="/partnership"
+          element={<Partnership setColor={setColor} />}
+        />
+        <Route path="/post/:id" element={<Post setColor={setColor} />} />
+        <Route
+          path="/bestaArticle"
+          element={<BestaSummary setColor={setColor} />}
+        />
       </Routes>
       <Footer />
     </>

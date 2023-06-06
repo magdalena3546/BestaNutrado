@@ -1,17 +1,22 @@
-import styles from './Partnership.module.scss';
+import styles from "./Partnership.module.scss";
 
-const Partnership = () => {
-    return(
+const Partnership = ({ setColor }) => {
+  setColor("#fff");
+  return (
     <>
-        <div className={styles.banner}>
-            <h3>Współpraca</h3>
+      <div className={styles.banner}>
+        <h3>Współpraca</h3>
+      </div>
+      <div className={styles.content}>
+        <div className={styles.photoDog}></div>
+        <div className={styles.text}>
+          <h4>
+            Jesteśmy otwarci na współpracę. Serdecznie zapraszamy do kontaktu!
+          </h4>
         </div>
-        <div className={styles.content}>
-            <div className={styles.photoDog}></div>
-            <div className={styles.text}><h4>Jesteśmy otwarci na współpracę. Serdecznie zapraszamy do kontaktu!</h4></div>
-        </div>
+      </div>
     </>
-    )
+  );
 };
 
 export default Partnership;

@@ -19,7 +19,6 @@
         .list {
             display: flex;
             list-style: none;
-
             a {
                 position: relative;
                 text-decoration: none;
@@ -27,7 +26,6 @@
                 font-weight: bold;
                 transition: $transition;
                 text-align: center;
-                
                 &::after{
                     content: '';
                     position: absolute;
@@ -63,7 +61,14 @@
     transition: .5s ease-in-out;
     border-bottom: 1px solid #F2F2F2;
     max-height: 9vh;
+    .menu{
+        .list{
+            a {
+                color: $color_text !important;
+            }
+        }
     }
+}
 
 
 @media (max-width: 990px) {

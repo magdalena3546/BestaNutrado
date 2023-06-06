@@ -2,7 +2,8 @@ import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './Contact.module.scss';
 
-const Contact = () => {
+const Contact = ({setColor}) => {
+    setColor("#fff");
     return(
         <>
           <div className={styles.banner}>

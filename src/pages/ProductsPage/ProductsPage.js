@@ -9,8 +9,10 @@ const ProductsPage = ({ setColor }) => {
       </div>
       <div className={styles.content}>
         <h4>
-          Strona jest obecnie w przygotowaniu. Już wkrótce otwarcie naszego
-          sklepu internetowego. Serdecznie zapraszamy!
+          W swojej ofercie posiadamy karmy suche oraz mokre, a także przysmaki.
+          Strona jest obecnie w przygotowaniu, zachęcamy do zapoznania się z
+          naszymi aukcjami na allegro. Już wkrótce otwarcie naszego sklepu
+          internetowego. Serdecznie zapraszamy!
         </h4>
       </div>
     </>

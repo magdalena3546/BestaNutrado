@@ -11,7 +11,8 @@ const Partnership = ({ setColor }) => {
         <div className={styles.photoDog}></div>
         <div className={styles.text}>
           <h4>
-            Jesteśmy otwarci na współpracę. Serdecznie zapraszamy do kontaktu!
+            Jesteśmy otwarci na współpracę. Serdecznie zapraszamy do kontaktu
+            pod numerem 6083082988.
           </h4>
         </div>
       </div>

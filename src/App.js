@@ -1,7 +1,7 @@
 import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import NavBar from "./views/NavBar/NavBar";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Footer from "./views/Footer/Footer";
 import Contact from "./pages/Contact/Contact";
 import Partnership from "./pages/Partnership/Partnership";
@@ -32,6 +32,7 @@ const App = () => {
           path="/bestaArticle"
           element={<BestaSummary setColor={setColor} />}
         />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
     </>

@@ -27,7 +27,7 @@ const Contact = ({setColor}) => {
                         <div className={styles.icon}><FontAwesomeIcon icon={faPhone}/></div>
                             <div className={styles.text}>
                                 <h4>Zadzwoń do nas</h4>
-                                <p>12 658 50 773</p>
+                                <p>126585077</p>
                             </div>
                     </div>
                     </div>
@@ -37,7 +37,8 @@ const Contact = ({setColor}) => {
                         <div className={styles.icon}><FontAwesomeIcon icon={faLocationDot}/></div>
                             <div className={styles.text}>
                                 <h4>Odwiedź nas</h4>
-                                <p>ul.Myślenicka 133, 30-698 Kraków</p>
+                                <p className={styles.place}>Centrum Handlowe Myślenicka 133, 30-698 Kraków</p>
+                                <p className={styles.place}>Sklep zoologiczny Błękitna Planeta, I piętro, jesteśmy nad Lewiatanem :)</p>
                             </div>
                     </div>
                     </div>

@@ -70,6 +70,11 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1400px){
+    .fixed {
+        max-height: 10vh;
+    }
+}
 
 @media (max-width: 990px) {
     .nav .menu {

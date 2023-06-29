@@ -12,7 +12,7 @@ const Partnership = ({ setColor }) => {
         <div className={styles.text}>
           <h4>
             Jesteśmy otwarci na współpracę. Serdecznie zapraszamy do kontaktu
-            pod numerem 6083082988.
+            pod numerem 608382988.
           </h4>
         </div>
       </div>

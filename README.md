@@ -4,8 +4,8 @@ Simple landing page for pet food created with React.
 
 ---
 
-#  Demo
-Here is demo: https://aesthetic-meringue-707852.netlify.app/
+#  Website
+https://bestanutrado.pl/
 
 ---
 
